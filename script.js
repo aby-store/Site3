@@ -49,7 +49,7 @@
             const total = selectedItems.reduce((sum, item) => sum + parseInt(item.price), 0);
             
             const message = `Halo min, saya ingin topup:\n${selectedItems.map(item => 
-                `- ${item.game} (${item.text})`).join('\n')}\n\nTotal: Rp ${total}\nID Player: ${playerId}`;
+                `-${item.game} (${item.text})`).join('\n')}\n\nTotal: ${total} Diamond\nID Player: ${playerId}`;
                 
                 const phoneNumber = "6289685140010";
                 
