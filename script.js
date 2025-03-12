@@ -40,7 +40,7 @@
         }
 
         // WhatsApp Checkout
-        ddocument.getElementById('whatsapp-button').addEventListener('click', () => {
+        document.getElementById('whatsapp-button').addEventListener('click', () => {
             const playerId = document.getElementById('player-id').value;
             if(!playerId) return alert('Masukkan ID Player!');
             if(selectedItems.length === 0) return alert('Pilih item terlebih dahulu!');
