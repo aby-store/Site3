@@ -50,8 +50,6 @@
             const message = `Halo min, saya ingin topup:\n${selectedItems.map(item => 
                 `- ${item.game} (${item.text})`).join('\n')}\n\nTotal: Rp ${total * 2},000\nID Player: ${playerId}`;
                 
-function redirectToWhatsApp() {
-            // Ganti dengan nomor WhatsApp Anda (format internasional tanpa + dan 0)
             const whatsappUrl = `https://wa.me/6285607827911?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
         });
