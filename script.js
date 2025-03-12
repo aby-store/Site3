@@ -51,7 +51,7 @@
             const message = `Halo min, saya ingin topup:\n${selectedItems.map(item => 
                 `- ${item.game} (${item.text})`).join('\n')}\n\nTotal: Rp ${total}\nID Player: ${playerId}`;
                 
-                const phoneNumber = "6285607827911";
+                const phoneNumber = "6289685140010";
                 
             const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
             window.location.href = whatsappUrl;
